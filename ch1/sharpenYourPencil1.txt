@@ -1,0 +1,30 @@
+var price = 28.99; -> create a variable named price, and assign the value 28.99 to it
+
+var discount = 10; -> create a variable named discount and assign the value 10 to it
+
+var total = price - (price * (discount / 100)); -> create a variable named total and assign the result of 26.09
+
+if (total > 25) { freeShipping(); } -> if the total is greater than 25, it will execute the function freeShipping()
+
+var count = 10; -> creates a variable named count and assign the value 10 to it
+
+while (count > 0) { 
+  juggle();
+  count = count - 1;
+} -> while the value of count is greater than 10, the while loop will execute the juggle() and decrease the value 
+count by 1 each and every iteration. When the value of count becomes 0, the while loop will stop.
+
+var dog = { name: "Rover", weight: 35 }; -> create a variable named dog and assign the object with name "Rover" and 
+weight of 35
+
+if (dog.weight > 30) {
+  alert("WOOF WOOF");
+} else {
+  alert("woof woof");
+} -> if the object's weight assign to dog is greater than 30, it will pop up an alert box showing the message WOOF 
+WOOF, otherwise it will show woof woof
+
+var circleRadius = 20; -> creates a variable named circleRadius and assign the value 20 to it
+
+var circleArea = Math.PI * (circleRadius * circleRadius); -> creates a variable named circleArea and assign the 
+result of 1256 to it

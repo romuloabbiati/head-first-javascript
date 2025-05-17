@@ -1,0 +1,24 @@
+A - Test for jokes
+
+var jokes = "JavaScript walked into a bar...'; -> it should use either " or ' both not both 
+var toldJoke = "false"; -> booleans don't use double quotes on the sides
+var $punchline = "Better watch out for those semi-colons." -> semi-colon at the end missing
+var %entage = 20; -> it should not start with %
+var result -> when you just declare a variable, you need to finish with semi-colon
+
+if (toldJoke == true) {
+  Alert($punchline); -> alert starting with capital A
+} else -> opening curly braces missing
+  alert(joke); -> correct
+}
+
+B - Movie Night
+var zip code = 98104; -> whitespace within variable name is not allowed
+var joe'sFavoriteMovie = Forbidden Planet; -> cannot use ' in a variable name. " missing around forbidden 
+planet
+var movieTicket$ = 9; -> ending with $ not a good practice, a lot of whitespaces
+if (movieTicket$ >= 9) {
+  alert("Too much!");
+} else {
+  alert("We're going to see " + joe'sFavoriteMovie);
+}

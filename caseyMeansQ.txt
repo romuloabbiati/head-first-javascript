@@ -1,0 +1,29 @@
+1 head headaches 0
+	insomnia 1
+
+2 eyes
+
+3 ears itchy ears 3
+	ringing in ears/hearing loss 3
+
+4 nose  sinus prolems 1
+
+5 mouth/throat
+
+6 heart rapid or pounding hearbeat 1
+
+7 lungs
+
+8 digestive tract diarrhea 1
+	constipation 1
+
+9 joints/muscle stiffness or limitation of movement 1
+
+10 weight binge eating 1
+	
+11 
+
+12 mind difficulty in making decision 1
+Learning disabilities 1
+
+13 

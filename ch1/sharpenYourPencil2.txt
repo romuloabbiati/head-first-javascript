@@ -1,0 +1,21 @@
+Get out your pencil and put some expressions through their paces. For each expression below, compute 
+its value and write in your answer. Yes. WRITE IN... forget what your Mom told you about writing in books 
+and scribble your answer right in this book! Be sure to check your answers at the end of the chapter.
+
+(9 / 5) * temp + 32 -> what is the result when temp is 10? 50
+
+color == "orange" is this expression true or false when color  has the value "pink"? false
+	or has the value "orange"? true
+
+name + ", " + "you've won!" -> what value does this compute to when name is "Martha"? Martha, you're won!
+
+yourLevel > 5 -> when youLevel is 2, what does this evaluate to? false
+	when yourLevel is 5, what does this evaluate to? false
+	when yourLevel is 7, what does this evaluate to? true
+
+(level * points) + bonus -> okay, level is 5, points is 30000 and bonus is 3300. What does 
+this evaluate to? 153,300
+
+color != "orange" -> is this expression true or false when color has the valur "pink"? true
+
+1000 + "108" -> are there a few possible answers? only one is correct. Which would you choose? 1000108

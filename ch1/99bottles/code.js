@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Your HTML Page</title>
-    <script>
-      var word = "bottles";
+var word = "bottles";
       var count = 99;
 
       while (count > 0) {
@@ -16,10 +10,4 @@
         } else {
           console.log("No more " + word + " of beer on the wall.");
         }
-      }      
-    </script>
-  </head>
-  <body>
-
-  </body>
-</html>
+      }     

@@ -1,0 +1,19 @@
+ACROSS
+3. to get input from a user, you can use the PROMPT function.
+5. to rendomly choose a position for a ship, use Math.RANDOM
+8. we keep track of whether a ship is sunk or not with a BOOLEAN variable
+9. if you don't initialize a variable, the value is UNDEFINED
+10. boolean operators always result in true or FALSE
+11. both while and if statements use CONDITIONAL tests
+
+DOWN
+1. if you're good at testing programs, you might want to become a QUALITY 
+Assurance specialist.
+2. == is a COMPARISON operator you can use to test to see if two values are the same.
+3. This helps you think about how a program is going to work
+4. to get a true value from an AND operator (&&), both parts of the conditional must 
+be TRUE.
+6. OR (||) and AND (&&) are LOGICAL operators.
+7. JavaScript has many built-in FUNCTIONS like alert and prompt.
+10. to get a false value from an OR operator (||), both parts of the conditional must be 
+FALSE.

@@ -4,7 +4,7 @@ ACROSS
 7 - behavior
 10 - bottles
 13 - statement
-14 - expression ??
+14 - expression
 15 - semicolon
 16 - consolelog
 

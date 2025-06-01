@@ -1,0 +1,30 @@
+SHARPEN YOUR PENCIL
+
+We've got a whole bunch of boolean expressions that need evaluating below. Fill in the Blanks, 
+And then check your answers at the end of the chapter before you go on.
+
+Var temp = 81;
+Var willRain = true;
+Var humid = (temp > 80 && willRain == true);
+What's the value of humid? -> true
+
+Var guess = 6;
+Var isValid = (guess >= 0 && guess <= 6);
+What's the value of isValid? -> true
+
+Var kB = 1287;
+Var tooBig = (kB > 1000);
+Var urgent = true;
+Var sendFile = (urgent == true || tooBig == false);
+What's the value of sendFile? -> true
+
+Var keyPressed = "N";
+Var points = 142;
+Var level;
+If (keyPressed == "Y" || (points > 100 && points < 200) {
+  Level = 2;
+} else {
+  Level = 1;
+}
+
+What's the value of level? -> 2

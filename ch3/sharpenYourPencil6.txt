@@ -1,0 +1,9 @@
+A. the code seems very redundant
+B. if we want to change the display of the output, or add another weight for dogs, 
+this is going to require a lot of reworking.
+C. Looks tedious to type in!
+
+E. functions can be used to reuse code and avoid a lot of typing.
+
+note: selected all options that apply. I didn't select D because I think the code is 
+readable.

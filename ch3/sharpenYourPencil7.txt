@@ -1,0 +1,12 @@
+bark("juno", 20); -> juno says woof woof
+
+bark("scottie", -1); -> scottie says woof woof
+
+bark("dino", 0, 0); -> dino says woof woof // browser will also complain that 
+the third parameter is undefined
+
+bark("fido", "20"); -> fido says woof woof
+
+bark("lady", 10); -> lady says woof woof
+
+bark("bruno", 21); -> bruno says WOOF WOOF

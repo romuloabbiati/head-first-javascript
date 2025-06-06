@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      // what happens when we don't pass enough arguments?
+      function makeTea(cups, tea) {
+        console.log("Brewing " + cups + " cups of " + tea);
+      }      
+      
+      makeTea(3);
+
+      // what happens when we pass too many arguments?
+      function makeTea(cups, tea) {
+        console.log("Brewing " + cups + " cups of " + tea);
+      }
+
+      makeTea(3, "Earl Grey", "hey ma!", 42);
+    
+      // what happens when we have NO parameters?
+      function barkAtTheMoon() {
+        console.log("Wooooooooooo!");
+      }
+
+      barkAtTheMoon();
+
+      // functions can RETURN things too
+      function bake(degrees) {
+        var message;
+
+        if (degrees > 500) {
+          message = "I'm not a nuclear reactor!";
+        } else if (degrees < 100) {
+          message = "I'm not a refrigerator!";
+        } else {
+          message = "That's a very comfortable temperature for me!";
+          //setMode("bake");
+          //setTemp(degrees);
+        }
+        return message;
+      }
+
+      var status = bake(350);
+      console.log(status);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      var balance = 10500;
+      var cameraOn = true;
+
+      function steal(balance, amount) {
+        cameraOn = false;
+        console.log("is camera on: " + cameraOn);
+        console.log("balance value: " + balance);
+        console.log("amount value: " + amount);
+        if (amount < balance) {
+          balance = balance - amount;
+          console.log("balance after if check: " + balance);
+        }
+        
+        return amount;
+        cameraOn = true;
+      }      
+      
+      var amount = steal(balance, 1250);
+      console.log("=======================");
+      console.log("balance after function execution: " + balance);
+      console.log("amount after function execution: " + amount);
+      console.log("camera status after function execution: " + cameraOn);
+      alert("Criminal: you stole " + amount + "!");
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

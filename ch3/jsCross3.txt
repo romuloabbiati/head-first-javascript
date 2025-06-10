@@ -1,0 +1,22 @@
+JAVASCRIPT CROSS
+
+CROSS
+4. A parameter acts like a VARIABLE in the body of a function.
+6. JavaScript uses PASSBYVALUE when passing arguments to functions.
+10. You can declare your functions ANYWHERE in your JavaScript file.
+11. What gets returned from a function without a return statement. UNDEFINED
+13. Local variables disappear when the FUNCTION returns.
+16. If you forget to declare your locals, they'll be treated like GLOBALS.
+17. A local variable can SHADOW a global variable.
+
+DOWN
+1. A variable with global SCOPE is visible everywhere.
+2. Use functions so you can REUSE code over and over again.
+3. The variables that arguments land in when they get passed to functions.
+5. To get a value back from a function, use the RETURN statement.
+7. What gets passed to functions. ARGUMENTS
+8. When you reload your page, all your VARIABLES get re-initialized.
+9. TRACING through your code means following the execution line by line.
+12. Watson looked at the bank heist code in Sherlock's EMAIL on his phone.
+14. It's better to use LOCAL variables whenever you can.
+15. Extra arguments to a function are IGNORED

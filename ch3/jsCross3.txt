@@ -12,7 +12,7 @@ CROSS
 DOWN
 1. A variable with global SCOPE is visible everywhere.
 2. Use functions so you can REUSE code over and over again.
-3. The variables that arguments land in when they get passed to functions.
+3. The variables that arguments land in when they get passed to functions. PARAMETERS
 5. To get a value back from a function, use the RETURN statement.
 7. What gets passed to functions. ARGUMENTS
 8. When you reload your page, all your VARIABLES get re-initialized.

@@ -23,16 +23,21 @@
         return highScore;      
       }      
 
-       var bestSolutions = [];
+      function getBestResults(scores, highScore) {
+        var bestSolutions = [];
 
-      for (var i = 0; i < scores.length; i++) {
-        if (scores[i] == highScore) {
-         // bestSolutions.push(i);
-          bestSolutions[bestSolutions.length] = i;
+        for (var i = 0; i < scores.length; i++) {
+          if (scores[i] == highScore) {
+           // bestSolutions.push(i);
+            bestSolutions[bestSolutions.length] = i;
+          }
         }
-      }
-      
+        return bestSolutions;
+      }      
+
       var highScore = printAndGetHighScore(scores);
+      var bestSolutions = getBestResults(scores, highScore);
+
       console.log("Bubbles tests: " + scores.length);
       console.log("Highest bubble score: " + highScore);
       console.log("Solutions with highest score: " + bestSolutions);

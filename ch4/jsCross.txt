@@ -1,0 +1,21 @@
+ACROSS
+5. An array with undefined values is called SPARSE array.
+9. To change a value in an array, simply ASSIGN the item a new value.
+10. Who thought he was going to have the winning bubble solution? BUBBLEOLOGIS
+14. When you REFACTOR your code, you organise it so it's easier to read and maintain.
+17. Each value in an array is stored at an INDEX.
+
+DOWN
+1. To add a new value to the end of an existing array, use PUSH.
+2. We usually use a FOR loop to iterate over an array.
+3. Arrays are good for storing MULTIPLE values.
+4. The last index of an array is always one LESS than the length of the array.
+6. The operator we use to increment a loop variable.
+7. When iterating through an array, we usually use the LENGTH property to know 
+when to stop.
+8. The index of the first item in an array is ZERO.
+11. The value an array item gets if you don't specify one.
+12. Functions can help ORGANISE your code.
+13. An array is an ORDERED data structure.
+15. How many bubble solutions, had the highest score?
+16. Access an array item using its INDEX in square brackets.

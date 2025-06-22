@@ -1,0 +1,47 @@
+BRAIN POWER
+
+ Say you were implementing a classic ping-pong style video arcade game. 
+What would you choose as objects? What state and behavior do you think 
+they'd have?
+
+OBJECTS: ball, paddle, game manager / engine.
+
+BALL
+State:
+  x, y (position)
+  velocityX, velocityY (movement direction and speed)
+  radius (for collision detection)
+Behavior: 
+  move() - updates the ball's position using velocity
+  checkCollisionWithWalls() - inverts velocityY if it hits top or bottom wall
+  checkcollisionWithPaddle (paddle) - inverts velocityX if it hits a paddle, possible 
+adjust angle based on hit location.
+  reset() - places the ball in the center with initial velocity after a score.
+
+PADDLE
+State:
+  x, y (position; x is usually fixed, y changes)
+  width, height
+  speed
+ isAI (optional; for single-player mode)
+
+Behavior:
+  moveUp() - decreases y by speed.
+  moveDown() - increases y by speed.
+  checkBounds() - keeps paddle within the screen.
+  autoMove(ball) - optional AI that trackes the ball.
+
+GAME MANAGER / ENGINE
+State: 
+  player1, player2 (paddle instances)
+  ball (ball instance)
+  score1, score2
+  gameState (e.g. "playing", "paused", "game over");
+Behavior:
+ startGame() - sets initial state and spawns and paddles.
+  update() - main game loop, move ball, check collisions, update paddles.
+  render() - draws all objects to the screen.
+  handleInput() - processes user input (e.g., arrow keys or WASD).
+  checkScore() - increments score and sets ball if a player misses.
+
+

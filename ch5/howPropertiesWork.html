@@ -14,6 +14,8 @@
         mileage: 88000
       }      
 
+      console.log("mileage: " + fiat.mileage);
+
       function buyIt() {
         console.log("This is a good deal, buy it!");
       }
@@ -22,6 +24,12 @@
       if (miles < 2000) {
         buyIt();
       }
+
+      fiat.mileage = 10000;
+      console.log("mileage: " + fiat.mileage);
+      
+      fiat.needsWashing = true;
+      console.log(fiat);
     </script>
   </head>
   <body>

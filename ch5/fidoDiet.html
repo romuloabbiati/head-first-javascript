@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      var fido = {
+        name: "Fido",
+        weight: 48,
+        breed: "Mixed",
+        loves: "walks"
+      }      
+
+      function loseWeight(dog, amount) {
+        dog.weight = dog.weight - amount;
+      }
+
+      loseWeight(fido, 10);
+      console.log("fido.weight: " + fido.weight);
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

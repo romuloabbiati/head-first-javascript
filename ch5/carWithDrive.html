@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      var fiat = {
+        make: "Fiat",
+        model: "500",
+        year: 1957,
+        color: "Medium Blue",
+        passensegers: 2,
+        convertible: false,
+        mileage: 88000,
+        started: false,
+        start: function() {
+          started = true;
+        },
+        stop: function() {
+          started = false;
+        },
+        drive: function() {
+          if (started) {
+            alert("Zoom zoom!");
+          } else {
+            alert("You need to start the engine first.");
+          }
+        }
+
+      }      
+
+      console.log("mileage: " + fiat.mileage);
+
+      function buyIt() {
+        console.log("This is a good deal, buy it!");
+      }
+
+      var miles = fiat.mileage;
+      if (miles < 2000) {
+        buyIt();
+      }
+
+      fiat.mileage = 10000;
+      console.log("mileage: " + fiat.mileage);
+      
+      fiat.needsWashing = true;
+      console.log(fiat);
+
+      fiat.drive();
+      fiat.start();
+      fiat.drive();
+      fiat.stop();      
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

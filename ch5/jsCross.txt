@@ -1,0 +1,19 @@
+JAVASCRIPT CROSS
+
+ACROSS
+2. An object gets BEHAVIOR with its methods.
+6. The method log is a property in the CONSOLE object.
+8. this is a KEYWORD, not a regular variable.
+10. To access the property of an object we use DOT notation.
+11. METHODS can have local variables and parameters, just like regular functions can.
+13. We used a MAKE property to represent the make of a car object.
+14. The ADDFUEL method affects the state of the car object, bby adding tot the amount of fuel in the car.
+
+DOWN
+1. The fiat wouldn't start becuase we weren't using THIS to access the started property.
+3. Object references are passed by VALUE to functions, just like primitive variables.
+4. When you assign an object to a variable, the variable contains a REFERENCE to the object.
+5. We usually use one WORD for property names.
+7. The name and value of a property in an object are separated by a COLON.
+9. Don't forget to use COMMA after each property value, except the last one.
+12. Car and dog objects can have both STATE and behavior.

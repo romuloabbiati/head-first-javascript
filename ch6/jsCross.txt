@@ -1,0 +1,22 @@
+JAVASCRIPT CROSS
+
+ACROSS
+5. Functions that handle events are known as event HANDLERS.
+7. Dr. Evel's passcode clue was in the element with the id CODE9.
+9. Assign a FUNCTION to the window.onload property to handle the load event.
+12. Use the element object's property,innerHTML, to change the HTML inside an element.
+14. The setAttribute method is a method of an ELEMENT object.
+15. The DOM is shaped like a TREE.
+
+DOWN
+1. Which planet gets hit by phaser fire? GREENPLANET.
+2 Use the CONSOLE to see if you have errors in your code.
+3. It's important to make sure the PAGE is completely loaded before using code to get or change elements 
+in the page.
+4. The getElementById method gets an elements by its ID.
+6. Change the calss of an element using the SETATTRIBUTE method.
+8. The DOCUMENT object is always at the top of the DOM tree.
+10. It's a good idea to check for NULL when using getElementById.
+11. When you load a page into the browser, the browser creates a DOM representing all the elements 
+and content in the page.
+13. getElementById is a METHOD of the document object.

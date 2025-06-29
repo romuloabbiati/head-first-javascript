@@ -1,0 +1,8 @@
+document.getElementById("e7"); // you
+document.getElementById("e8"); // can
+document.getElementById("e16"); // turn
+document.getElementById("e9"); // back
+document.getElementById("e18"); // pages
+document.getElementById("e13"); // but
+document.getElementById("e12"); // not
+document.getElementById("e2"); // time

@@ -13,7 +13,7 @@ ACROSS
 DOWN
 1. The TYPEOF operator can be used to get the type of a value.
 2. The weirdest value in the world. NaN.
-3. Your Fiat is parked at 
+3. Your Fiat is parked at EARLS
 4. Sometimes strings masquerade as OBJECTS.
 6. The value of a property that doesn't exist. UNDEFINED
 9. There are lots of handy string METHODS you can use.

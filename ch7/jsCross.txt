@@ -1,0 +1,23 @@
+ACROSS
+2. The only value in JavaScript that doesn't equal anything NaN
+5. The type of Inifity is NUMBER.
+7. There are FIVE falsey values in JavaScript.
+8. Who got the Aeron? AMY
+10. Two variables containing object references are euqla only if they REFERENCE the same object.
+12. The value returned when you're expecting an object, and that object doesn't exist. NULL
+13. The SPLIT method is a string method that returns an array.
+16. It's always 67 degrees in BLAINE Missouri.
+17. The type of null in the JavaScript specification. NULL
+18. The STRICT equality operator returns true only if the operands have the same type and the same value.
+
+DOWN
+1. The TYPEOF operator can be used to get the type of a value.
+2. The weirdest value in the world. NaN.
+3. Your Fiat is parked at 
+4. Sometimes strings masquerade as OBJECTS.
+6. The value of a property that doesn't exist. UNDEFINED
+9. There are lots of handy string METHODS you can use.
+11. The EQUALITY operator tests two values to see if they're equal, after trying to convert the operands to 
+the same type.
+14. null == undefined TRUE
+15. To find a specific character at an index in a string, use the charAt method.

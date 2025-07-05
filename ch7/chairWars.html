@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Chair Wars</title>
+    <script>
+      // LARRY
+      // function validate(phoneNumber) {
+      //   if (phoneNumber.length !== 8) {
+      //     return false;
+      //   }
+      //   for (var i = 0; i < phoneNumber.length; i++) {
+      //     if (i === 3) {
+      //       if (phoneNumber.charAt(i) !== '-') {
+      //         return false;
+      //       }
+      //     } else if (isNaN(phoneNumber.charAt(i))) {
+      //       return false;
+      //     }
+      //   }
+      //   return true;
+      // }
+
+      // BRAD
+      function validate(phoneNumber) {
+        if (phoneNumber.length !== 8) {
+          return false;
+        }
+        var first = phoneNumber.substring(0, 3);
+        var second = phoneNumber.substring(4);
+        if (phoneNumber.charAt(3) !== "-" || isNaN(first) || isNaN(second)) {
+          return false;
+        }
+        return true;
+      }
+
+      console.log(validate('123-4567'));
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

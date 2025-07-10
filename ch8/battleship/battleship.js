@@ -78,3 +78,11 @@ model.fire("11");
 model.fire("10");
 
 model.fire("00");
+
+// CONTROLLER OBJECT
+var controller = {
+  guesses: 0,
+  processGuess: function(guess) {
+    // more code will go here
+  }
+};

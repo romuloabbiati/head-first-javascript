@@ -148,9 +148,19 @@ function handleFireButton() {
   guessInput.value = "";
 }
 
+function handleKeyPress(e) {
+  var fireButton = document.getElementById("fireButton");
+  if (e.keyCode === 13) {
+    fireButton.click();
+    return false;
+  }
+}
+
 function init() {
   var fireButton = document.getElementById("fireButton");
   fireButton.onclick = handleFireButton;
+  var guessInput = document.getElementById("guessInput");
+  guessInput.onkeydown = handleKeyPress;
 }
 
 window.onload = init;

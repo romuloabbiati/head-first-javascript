@@ -1,0 +1,20 @@
+ACROSS
+2. We use the SETATTRIBUTE method to set the class of an element.
+4. To add a ship or miss image to the board, we place the image in the BACKGROUND of a <td> element.
+6. The DOWHILE loop executes the statements in its body at least once.
+8. Modern, interactive web apps use HTML, CSS and JAVASCRIPT.
+10. We represent each ship in the game with an OBJECT.
+12. The responsibility of the collision function is to make sure that ships don't OVERLAP.
+15. We call the FIRE method to ask the model to update the state with the guess.
+17. Who is responsible for state? MODEL
+18. You can cheat and get the answers to Battleship using the CONSOLE.
+
+DOWN
+1. To get the guess from the form input, we added an event HANDLER for the click event.
+3. Chaining is for OBJECT references, not just jailbirds.
+5. the CONTROLLER is good at gluing things together.
+7. To add a "hit" to the game board in the display, we add the HIT class to the corresponding <td> element.
+9. Arrays have an INDEXOF method too.
+13. The three objects in our game design are the model, VIEW, and controller.
+14. 13 is the keycode for the RETURN key.
+16. The MODEL notifies the view when its state changes.

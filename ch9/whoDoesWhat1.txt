@@ -1,0 +1,19 @@
+WHO DOES WHAT?
+You've already seen that the event object (for DOM events) has properties that give you more information 
+about the event that just happened. Below you'll find other properties that the vent object can have. Match 
+each event object property to what it does.
+
+TARGET -> I hold the object on which the event occurred. I can be differente kinds of objects, but most often 
+I'm an element object.
+
+TYPE -> I'm a string, like "click" or "load", that tells you what just happened.
+
+TIMESTAMP -> Want to know when your event happened? I'm the property for you.
+
+KEYCODE -> I'll tell you what key the user just pressed.
+
+CLIENTX -> Want to know how far from the left side of the browser window the user clicked? Use me.
+
+CLIENTY -> Want to know how far from the top of the browser window the user clicked? Use me.
+
+TOUCHES -> Uinsg a touch device? Then use me to find out how many fingers are tuoching the screen.

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      var tick = true;
+      function ticker() {
+        if (tick) {
+          console.log("Tick");
+          tick = false;
+        } else {
+          console.log("Tock");
+          tick = true;
+        }
+      }
+
+      setInterval(ticker, 1000);
+
+      //setInterval is similar to setTimeOut(), however it does not call the handler just once 
+      // but every time after the specified time, i.e. if the interval specified is 1000ms, 
+      // then it will call the handler every 1 second.
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

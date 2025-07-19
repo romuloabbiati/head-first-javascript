@@ -1,0 +1,28 @@
+JavaScript Cross
+ACROSS
+1. Use this property of the event object to know when an event happened. TIMESTAMP
+3. When you click your mouse, you'll generate a CLICK event.
+8. Events are handled ASYNCHRONOUSLY.
+12. 5000 milliseconds is FIVE seconds.
+13. Use this method to get multiple elements from the DOM using a tag name. GETELEMENTSBYTAGNAME
+14. A function designed to react to an event is called an event HANDLER.
+15. The setTimeout method is used to create a TIME event.
+16. The browser has only one THREAD.
+17. The browser can only execute one event HANDLER at a time.
+19. The event object for a mouseover event has this property for the X position of the mouse. CLIENTX
+20. The event OBJECT is passed to an event handler for DOM events.
+21. To pass an argument to a time event handler, pass it as the THIRD argument to setTimeout.
+
+DOWN
+1. You'll generate this event if you touch your touch screen device. TOUCHSTART
+2. zero.jpg is the MONALISA.
+4. When you begin programming with events, you might feel like you're not in KANSAS any more.
+5. JavaScript allows you to pass a FUNCTION to a function.
+6. If too many events happen close together, the browser stores the events in an event QUEUE.
+7. Events are generated for lots of things, but not for baking COOKIES.
+9. To make a time event happen over and over, use SETINTERVAL.
+10. The window ONLOAD property is for handling a page loaded event.
+11. DOM is super ticklish.
+14. To assign an event handler for a time event, pass the HANDLER to setTimeout as the first argument.
+15. How you know which image was clicked on in the image game. TARGET
+18. A program with code to handle events is not this. LINEAR

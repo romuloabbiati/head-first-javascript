@@ -1,0 +1,21 @@
+EXERCISE
+Let's do a little pre-work on this by first writing a function that takes a passenger as an argument and 
+checks to see if that passenger's name is on the no-fly-list. Return true if it is and false otherwise.
+Write another function that takes a passenger and checks to see if the passenger hasn't  paid. Return true if 
+the passenger has not paid, and false otherwise. We've started the code for you below; you just need to 
+finish it. You'll find our solution on the next page, but don't peek!
+HINT: assume your no-fly list consists of one individual: Dr. Evel.
+
+function checkNoFlyList(passenger) {
+  if (passenger.name === "Dr. Evel") {
+    return true;
+  }
+  return false;
+}
+
+function checkNotPaid(passenger) {
+  if(!passenger.paid) {
+    return true;
+  }
+  return false;
+}

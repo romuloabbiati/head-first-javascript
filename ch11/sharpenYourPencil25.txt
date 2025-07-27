@@ -1,0 +1,20 @@
+SHARPEN YOUR PENCIL
+
+Use your knowledge of functions and variables and check off the true statements below.
+
+ANSWER: all statements are correct.
+
+The handler variable holds a functions reference.
+
+When we assign handler to window.onload, we're assigning it a function reference.
+
+The only reason the handler variable exists is to assign it to window.onload.
+
+We'll never use handler again as it's code that is meant to run only when the page first loads.
+
+Invoking onload handlers twice is not a great idea - doing so could cause issues given these handlers 
+usually do some initialization for the entire page.
+
+Function expressions create function references.
+
+Did we mention that when we assign handler to window.onload, we're assigning it a function reference?

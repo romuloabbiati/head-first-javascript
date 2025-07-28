@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Closures</title>
+    <script>
+      // CLOSURE, noun: A closure is a functino together with a referencing environment.
+      // A closure results when we combine a function that has free variables with an environment 
+      // that provides variable bindings for all those free variables.
+
+      // var count = 0;
+
+      // function counter() {
+      //   count = count + 1;
+      //   return count;
+      // }
+
+      // console.log(counter());
+      // console.log(counter());
+      // console.log(counter());
+
+      // the problem with the code above is that if this is a big project and I'm working with other people, we tend to use the same variable names. 
+      // I had to use a global variable count and someone else could have the same idea to use the same name for a variables that is used to count 
+      // something. One way to not define globally is to define that variable count within a function.
+
+      function makeCounter() {
+        var count = 0;
+
+        function counter() {
+          count = count + 1;
+          return count;
+        }
+
+        return counter;
+      }
+
+      var doCount = makeCounter();
+      console.log(doCount());
+      console.log(doCount());
+      console.log(doCount());
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

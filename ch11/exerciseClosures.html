@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      // The function that's returned from makePassword is a closure with an environment containing the free variable password.
+      function makePassword(password) {
+        return function guess(passwordGuess) {
+          return (passwordGuess === password);
+        }
+      }
+
+      var tryGuess = makePassword("secret");
+      console.log("Guessing 'nope': " + tryGuess("nope"));
+      console.log("Guessing 'secret': " + tryGuess("secret"));
+
+      console.log("-------------------------------------------------");
+
+      // The function that's returned from multN is a closure with an environment containing the free variable n.
+      function multN(n) {
+        return function multBy(m) {
+          return n * m;
+        }
+      }
+
+      var multBy3 = multN(3);
+      console.log("Multiplying 2: " + multBy3(2));
+      console.log("Multiplying 3: " + multBy3(3));
+
+      console.log("-------------------------------------------------");
+
+      // The object that's returned from makeCounter is a closure with an environment containing the free variable count.
+      function makeCounter() {
+        var count = 0;
+        return {
+          increment: function() {
+            count++;
+            return count;
+          }
+        };
+      }
+
+      var counter = makeCounter();
+      console.log(counter.increment());
+      console.log(counter.increment());
+      console.log(counter.increment());
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

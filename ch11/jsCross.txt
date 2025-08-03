@@ -1,0 +1,23 @@
+JavaScript Cross
+
+ACROSS
+4. A function declaration nested in another function has LOCAL scope.
+6. When we tried to call fly before it was defined, we got this kind of error. TYPEERROR
+9. wingFlapper is a NESTED function.
+12. We often use setTimeout to create a timer for making COOKIES.
+13. A function expression assigned to a variable at the top level of your code has GLOBAL scope.
+14. To get a raise, you should understand how CLOSURES work.
+16. A FREE variable is one that's not defined in the local scope.
+17. We changed the value of doneMessage to OUCH in the closure.
+18. An environment that provides values for all free variables CLOSES a function.
+
+DOWN
+1. JUDY is always right.
+2. JOE changed his shirt between pages.
+3. Movie the word "derezzed" was used in. TRON
+5. An ANONYMOUS function is a function expression that has no name.
+7. A function with an ENVIRONMENT attached to it is called a closure.
+8. A function expression evaluates to a function REFERENCE.
+10. We passed a function EXPRESSION to set the cookie alarm.
+11. Parameters are LOCAL variables, so they're included in the environment where variables are defined.
+15. LEXICAL scope means you can understand the scope of your variables by reading the structure of your code.

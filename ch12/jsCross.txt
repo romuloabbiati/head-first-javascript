@@ -1,0 +1,22 @@
+JavaScript CROSS
+
+ACROSS
+2. A constructor is a FUNCTION.
+7. If you want to save my birthday in a variable, you'll need a DATE constructor.
+9. You can use an object literal to pass arguments to a constructor when the constructor has lots of these 
+PARAMETERS.
+10. When you create an object from a constructor, we say it is an INSTANCE of the constructor.
+11. A constructor is a bit like a COOKIE cutter.
+14. The constructor function returns the newly constructed OBJECT.
+15. If you forget to use new with a constructor, you might see a TYPEERROR.
+
+
+DOWN
+1. Constructor syntax is a bit FRANKENSTEINIAN.
+3. You can add a property to an object created by a CONSTRUCTOR.
+4. new is an OPERATOR, not a PR lackey.
+5. The Webville Motors test car comes in this color. MARINE
+6. Using a constructor, we can make our cars so they have the same PROPERTIES.
+8. Never hold a TESTTUBE over your laptop.
+12. The limo and the limoDog are the same TYPE.
+13. To create an object with a constructor, you use the NEW operator.

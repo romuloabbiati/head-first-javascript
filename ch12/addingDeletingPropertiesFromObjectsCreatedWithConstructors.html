@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+
+      function Car(params) {
+        this.make = params.make;
+        this.model = params.model;
+        this.year = params.year;
+        this.color = params.color;
+        this.passengers = params.passengers;
+        this.convertible = params.convertible;
+        this.mileage = params.mileage;
+        this.started = false;
+
+        this.start = function() {
+          this.started = true;
+        };
+        
+        this.stop = function() {
+          this.started = false;
+        };
+
+        this.drive = function() {
+          if (this.started) {
+            alert("Zoom zoom!");
+          } else {
+            alert("You need to start the engine first.");
+          }
+        };
+      }
+
+      function Dog(name, breed, weight) {
+        this.name = name;
+        this.breed = breed;
+        this.weight = weight;
+      }
+
+      var fido = new Dog("Fido", "Mixed", 38);
+      console.log(fido);
+      fido.owner = "Bob";
+      console.log(fido);
+      delete fido.weight;
+      console.log(fido);
+
+      fido.trust = function(person) {
+        return (person === "Bob");
+      };
+
+      console.log(fido);
+
+      var notBite = fido.trust("Bob");
+      console.log("notBite: " + notBite);
+
+      var spot = new Dog("Spot", "Chihuahua", 10);
+      // notBite = spot.trust("Bob");
+      // console.log("notBite2: " + notBite);
+
+      var cadiParams = {
+        make: "GM", model: "Cadillac",
+        year: 1955, color: "tan",
+        passengers: 5, convertible: false,
+        mileage: 12892
+      };
+      var cadi = new Car(cadiParams);
+      console.log(cadi);
+
+      cadi.chrome = true;
+      console.log(cadi);
+
+      delete cadi.convertible;
+      console.log(cadi);
+
+      // cadi instanceof Car;
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

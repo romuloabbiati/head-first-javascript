@@ -77,6 +77,16 @@
       spot.sit();
       spot.sit();
 
+      console.log(spot.hasOwnProperty("species"));
+      console.log(fido.hasOwnProperty("species"));
+
+      console.log(spot.hasOwnProperty("sitting"));
+
+      console.log(fido.hasOwnProperty("sitting"));
+
+      fido.sitting = true;
+      console.log(fido.hasOwnProperty("sitting"));
+
     </script>
   </head>
   <body>

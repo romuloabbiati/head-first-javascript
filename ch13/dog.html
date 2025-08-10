@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>How to set up the prototype</title>
+    <script>
+      function Dog(name, breed, weight) {
+        this.name = name;
+        this.breed = breed;
+        this.weight = weight;
+      }
+
+      console.log(Dog.prototype);
+
+      Dog.prototype.species = "canine";
+
+      Dog.prototype.bark = function() {
+        if (this.weight > 25) {
+          console.log(this.name + " says Woof!");
+        } else {
+          console.log(this.name + " says Yip!");
+        }
+      };
+
+      Dog.prototype.run = function() {
+        console.log("Run!");
+      };
+
+      Dog.prototype.wag = function() {
+        console.log("Wag!");
+      };
+
+      console.log(Dog.prototype);
+
+      var fido = new Dog("Fido", "Mixed", 38);
+      var fluffy = new Dog("Fluffy", "Poodle", 30);
+      var spot = new Dog("Spot", "Chihuahua", 10);
+
+      fido.bark();
+      fido.run();
+      fido.wag();
+      console.log("");
+      fluffy.bark();
+      fluffy.run();
+      fluffy.wag();
+      console.log("");
+      spot.bark();
+      spot.run();
+      spot.wag();
+
+      spot.bark = function() {
+        console.log(this.name + " says Woof!");
+      };
+
+      spot.bark();
+
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Your HTML Page</title>
+    <script>
+      String.prototype.palindrome = function() {
+        var length = this.length;
+
+        for (var i = 0; i < (length / 2); i++) {
+          if (this[i] !== this[length - 1 - i]) {
+            return "It's not a palindrome";
+          }
+        }
+        return "It's a palindrome";
+      };
+
+      console.log("noon".palindrome());
+      console.log("romulo".palindrome());
+    </script>
+  </head>
+  <body>
+
+  </body>
+</html>
